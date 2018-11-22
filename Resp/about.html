@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>About Peter Tanzy</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" type="text/css" href="assets/css/about_style.css">        
+    </head>
+    <body id="abt">
+
+        <!-- Nav bar which will be located horizontally on the top of page. Title button is svg-->
+        <nav>
+            <div id=title>
+                <a href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="300" height="50"></a>
+            </div>
+            <div id=navButtons>
+                <a id="about" class="activeLink" href="#">About</a>
+                <a id="port" href="portfolio.html">Portfolio</a>
+                <a id="skill" href="skills.html">Skills</a>
+                <!-- <a id="contact" href="contact.html">Contact</a> -->
+            </div>
+        </nav>
+
+        <!-- Section starts below the Nav bar and will be horizontal. Contains article and
+             aside which will be laid out horizontally -->
+        <section>
+            <article>
+                <p>
+                    I love to code! I really enjoy the problem solving and analytical aspects in programming. I work in the 
+                    field, having two years experience coding in JavaScript. I have used such technolgies as D3.js, Node.js,
+                    and PptxGenJS. I have some experience with ExtJS and Express.
+                    <br><br>
+                    Some of my hobbies are exercising, hikings, and photography. My passions include writing and reading, as
+                    well as cooking anything Italian. I love to toss some pizza dough or roll out some pasta dough. There is
+                    nothing I love more than fresh pesto!
+                    <br><br>
+                    I hope you enjoy looking through some of my work (click on the image to advance to the next).
+                </p>
+            </article>
+            <aside>
+                    <img id="primImage" src="assets/images/0.jpg" alt="smiles" onclick='getImage()'>
+            </aside>
+        </section>
+
+        <footer>
+            <h3>Connect With Me!</h3>
+            <div>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <p>A quick thank you for perusing my portfolio. Enjoy!</p>
+        </footer>
+
+    <!-- I really enjoyed this homework and feel like I learned a lot doing it. While I had familiarity with css it really helped
+         to reinforce everything. I did hit some speedbumps with the css, but I was able to google and fix the issue. I'd like to
+        know how I can improve the CSS in this. -->
+    </body>
+
+    <script>
+        //const image = 
+        const alts = []
+        const img = document.getElementById("primImage");
+        let i = 1;
+        getImage=function(){
+            //let image = images[i];
+            let alt = [];
+            img.src="assets/images/"+i+".jpg";
+            img.alt="assets/images/"+i+".jpg"; //temporary place holder;
+            if(i>40) i=0;
+            i++
+        }
+
+        function hover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/wh_name.svg');
+        }
+
+        function unhover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/bl_name.svg');
+        }
+    </script>
+
+</html>

@@ -1,0 +1,51 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    width: 93%;
+    height: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    background:
+    linear-gradient(
+        rgba(146, 168, 209, 0.85), 
+        rgba(146, 168, 209, 0.85)
+    ),
+    url(https://raw.githubusercontent.com/ptanzy/Basic-Portfolio/master/assets/images/portbkgd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid #c4b7a6;
+    background: #d5e1df; */
+    margin: 2.5% 3% 3% 3%
+}
+
+section > img {
+    border-radius: 25px;
+    /* border: 1px solid #d6cbd3;
+    background: #e6e2d3; */
+    margin: 4% 0 0 2%;
+    width: 35%;
+    height: 35%;
+}
+
+@media only screen and (min-width: 500px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

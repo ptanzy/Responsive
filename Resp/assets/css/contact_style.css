@@ -1,0 +1,36 @@
+section {
+  width: 93%;
+  height: 90%;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  background:
+  linear-gradient(
+      rgba(146, 168, 209, 0.85), 
+      rgba(146, 168, 209, 0.85)
+  ),
+  url(https://raw.githubusercontent.com/ptanzy/Basic-Portfolio/master/assets/images/contactbkgd.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid #c4b7a6;
+  background: #d5e1df; */
+  margin: 2% 3% 3% 3%
+}
+
+@media only screen and (min-width: 500px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

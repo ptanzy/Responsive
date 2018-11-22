@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Contact Peter Tanzy</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" type="text/css" href="assets/css/index_style.css">  
+                    
+    </head>
+    <body id="cnt">
+
+        <nav>
+            <div id=title>
+                <a href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="300" height="50"></a>
+            </div>
+            <div id=navButtons>
+                <a id="about" href="about.html">About</a>
+                <a id="port" href="portfolio.html">Portfolio</a>
+                <a id="skill" href="skills.html">Tools</a>
+                <!-- <a id="contact" class="activeLink" href="#">Contact</a> -->
+            </div>
+        </nav>
+        
+        <footer>
+            <h3>Connect With Me!</h3>
+            <div>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <p>A quick thank you for perusing my portfolio. Enjoy!</p>
+        </footer>
+
+    </body>
+
+    <script>
+        function hover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/wh_name.svg');
+        }
+
+        function unhover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/bl_name.svg');
+        }
+    </script>
+
+</html>

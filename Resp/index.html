@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>A Portfolio By Peter Tanzy</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="index">   
+<!-- I had a lot of trouble adding an image to the background in the css for #index from a path assets/images/indexbkgd.jpg when in tried this path the screen turned black -->
+        <nav>
+            <div id=title>
+                <a href="#"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="300" height="50"></a>
+            </div>
+            <div id=navButtons>
+                <a id="about" href="about.html">About</a>
+                <a id="port" href="portfolio.html">Portfolio</a>
+                <a id="skill" href="skills.html">Skills</a>
+                <!-- <a id="contact" href="contact.html">Contact</a> -->
+            </div>
+        </nav>
+
+        <header>
+            <div>
+                <h1 >Peter Tanzy: A Portfolio of Works</h1>
+                <h2 >A front and backend developer. Slinging Code Since 2016</h2>
+            </div>
+        </header>
+
+        <footer>
+            <h3>Connect With Me!</h3>
+            <div>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <p>A quick thank you for perusing my portfolio. Enjoy!</p>
+        </footer>
+
+    </body>
+
+    <script>
+        function hover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/wh_name.svg');
+        }
+
+        function unhover() {
+            document.getElementById("svgName").setAttribute('src', 'assets/images/bl_name.svg');
+        }
+    </script>
+
+</html>
