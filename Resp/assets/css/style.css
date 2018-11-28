@@ -42,12 +42,11 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: left;
-    padding-right: 20px
 }
 
-#title > a {
+/* #title > a {
     border: white solid;
-}
+} */
 
 #navButtons {
     flex-grow: 3;
@@ -75,6 +74,10 @@ nav > div > a {
     transition: 0.35s;
     text-align: center;
     margin: auto;
+}
+
+#svgHome {
+    flex-grow: 1;
 }
 
 #skill {
@@ -146,7 +149,7 @@ footer {
     background: #bb0000;
 }
 
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
 
 }
 
@@ -160,4 +163,4 @@ footer {
 
 @media only screen and (min-width: 1200px) {
 
-}
+} */
