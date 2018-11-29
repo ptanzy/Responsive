@@ -1,155 +1,311 @@
-body, html {
-    font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    background: #92a8d1;
-    color: #fff;
+@media only screen and (min-width: 300px) {
+    body, html {
+        font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        background: #92a8d1;
+        color: #fff;
+    }
+
+    /* .activeLink {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+    } */
+
+    #index {
+        /* The image used and tinting*/
+        background:
+            linear-gradient(
+                rgba(146, 168, 209, 0.85), 
+                rgba(146, 168, 209, 0.85)
+            ),
+            url(https://raw.githubusercontent.com/ptanzy/Basic-Portfolio/master/assets/images/indexbkgd.jpg);
+            /* I had a lot of trouble adding an image to the background in the css for #index from a path assets/images/indexbkgd.jpg when in tried this path the screen turned black */
+
+        /*Scale and center the image for larger screen and resize*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #title {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+    }
+
+    /* #title > a {
+        border: white solid;
+    } */
+
+    #navButtons {
+        flex-grow: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 5%;
+        margin: 2% 0 0 0;
+    }
+
+    nav > div > a {
+        width: 20%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 0.75em;
+        transition: 0.35s;
+        text-align: center;
+        margin: auto;
+    }
+
+    #svgName {
+        width: 100px;
+        height: 20px;
+    }
+
+    #skill {
+        flex-grow: 1;
+    }
+
+    #port {
+        flex-grow: 3;
+    }
+
+    #about {
+        flex-grow: 1;
+    }
+
+    #cont {
+        flex-grow: 2;
+    }
+
+    .activeLink {
+        text-decoration: underline;
+    }
+
+    header {
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        height: 15%;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        margin: 0 0 5% 0;
+    }
+
+    .fa {
+        padding:  15px;
+        font-size: 30px;
+        width: 55px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 15px;
+        transition: 0.35s;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+        width: 100;
+        transform: scale(1.1);
+    }
+
+    .fa-linkedin {
+        color: #ffffff;
+        background: #007bb5;
+    }
+
+    .fa-instagram {
+        color: #ffffff;
+        background: #125688;
+    }
+
+    .fa-youtube {
+        color: white;
+        background: #bb0000;
+    }
 }
 
-/* .activeLink {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 10px;
-} */
+@media only screen and (min-width: 850px) {
+    body, html {
+        font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        background: #92a8d1;
+        color: #fff;
+    }
 
-#index {
-    /* The image used and tinting*/
-    background:
-        linear-gradient(
-            rgba(146, 168, 209, 0.85), 
-            rgba(146, 168, 209, 0.85)
-        ),
-        url(https://raw.githubusercontent.com/ptanzy/Basic-Portfolio/master/assets/images/indexbkgd.jpg);
-        /* I had a lot of trouble adding an image to the background in the css for #index from a path assets/images/indexbkgd.jpg when in tried this path the screen turned black */
+    /* .activeLink {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+    } */
 
-    /*Scale and center the image for larger screen and resize*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    #index {
+        /* The image used and tinting*/
+        background:
+            linear-gradient(
+                rgba(146, 168, 209, 0.85), 
+                rgba(146, 168, 209, 0.85)
+            ),
+            url(https://raw.githubusercontent.com/ptanzy/Basic-Portfolio/master/assets/images/indexbkgd.jpg);
+            /* I had a lot of trouble adding an image to the background in the css for #index from a path assets/images/indexbkgd.jpg when in tried this path the screen turned black */
+
+        /*Scale and center the image for larger screen and resize*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #title {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+    }
+
+    /* #title > a {
+        border: white solid;
+    } */
+
+    #navButtons {
+        flex-grow: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 5%;
+        margin: 2% 0 0 0;
+    }
+
+    nav > div > a {
+        width: 20%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 1em;
+        transition: 0.35s;
+        text-align: center;
+        margin: auto;
+    }
+
+    #svgName {
+        width: 200px;
+        height: 40px;
+    }
+
+    #skill {
+        flex-grow: 1;
+    }
+
+    #port {
+        flex-grow: 3;
+    }
+
+    #about {
+        flex-grow: 1;
+    }
+
+    #cont {
+        flex-grow: 2;
+    }
+
+    .activeLink {
+        text-decoration: underline;
+    }
+
+    header {
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        height: 15%;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        margin: 0 0 5% 0;
+    }
+
+    .fa {
+        padding:  15px;
+        font-size: 30px;
+        width: 55px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 15px;
+        transition: 0.35s;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+        width: 100;
+        transform: scale(1.1);
+    }
+
+    .fa-linkedin {
+        color: #ffffff;
+        background: #007bb5;
+    }
+
+    .fa-instagram {
+        color: #ffffff;
+        background: #125688;
+    }
+
+    .fa-youtube {
+        color: white;
+        background: #bb0000;
+    }
 }
-
-#title {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-}
-
-/* #title > a {
-    border: white solid;
-} */
-
-#navButtons {
-    flex-grow: 3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 5%;
-    margin: 2% 0 0 0;
-}
-
-nav > div > a {
-    width: 20%;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 1em;
-    transition: 0.35s;
-    text-align: center;
-    margin: auto;
-}
-
-#svgHome {
-    flex-grow: 1;
-}
-
-#skill {
-    flex-grow: 1;
-}
-
-#port {
-    flex-grow: 3;
-}
-
-#about {
-    flex-grow: 1;
-}
-
-#cont {
-    flex-grow: 2;
-}
-
-.activeLink {
-    text-decoration: underline;
-}
-
-header {
-    height: 70%;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-footer {
-    height: 15%;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
-    margin: 0 0 5% 0;
-}
-
-.fa {
-    padding:  15px;
-    font-size: 30px;
-    width: 55px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 15px;
-    transition: 0.35s;
-}
-
-.fa:hover {
-    opacity: 0.7;
-    width: 100;
-    transform: scale(1.1);
-}
-
-.fa-linkedin {
-    color: #ffffff;
-    background: #007bb5;
-  }
-
-.fa-instagram {
-    color: #ffffff;
-    background: #125688;
-}
-
-.fa-youtube {
-    color: white;
-    background: #bb0000;
-}
-
-/* @media only screen and (min-width: 500px) {
+/* @media only screen and (max-width: 550px) {
 
 }
 
