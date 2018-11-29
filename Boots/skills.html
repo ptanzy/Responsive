@@ -2,23 +2,34 @@
 <html lang="en-us">
     <head>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
         <link rel="stylesheet" type="text/css" href="assets/css/skills_style.css">        
         <title>Peter Tanzy: Skills</title>        
     </head>
     <body id="skls">
 
-        <nav>
-            <div id="title">
-                <a href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="300" height="50"></a>
+        <nav class="navbar navbar-expand navbar-default bg-default nav_custom">
+            <a class="navbar-brand" href="#"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="150" height="35"></a>
+    
+            <div class="collapse navbar-collapse" id=navButtons>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link a_custom" id="about" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_custom" id="port" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link a_custom" id="skill" class="activeLink" href="#">Skills
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" id="Contact" href="contact.html">Skills</a>
+                    </li> -->
+                </ul>
             </div>
-            <div id=navButtons>
-                <a id="about" href="about.html">About</a>
-                <a id="port" href="portfolio.html">Portfolio</a>
-                <a id="skill" class="activeLink" href="#">Tools</a>
-                <!-- <a id="contact" href="contact.html">Contact</a> -->
-            </div>
-        </nav>    
+        </nav>
         
         <section>
             <img src="assets/images/js.png" alt="java scri[t">
