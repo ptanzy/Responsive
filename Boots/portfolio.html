@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
         <link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">        
     </head>
-    <body id="prt">
+    <body id="prt" class="container">
 
         <nav class="navbar navbar-expand navbar-default bg-default nav_custom">
             <a class="navbar-brand" href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="150" height="35"></a>
@@ -30,23 +30,31 @@
                 </ul>
             </div>
         </nav>
-        
-        <section>
-                <img src="assets/images/js.png" alt="java scri[t">
-                <img src="assets/images/node.png" alt="node js">
-                <img src="assets/images/d3.jpg" alt="d3 js">
-                <img src="assets/images/express.png" alt="express js">
-        </section>
-
-        <footer>
-            <h3>Connect With Me!</h3>
-            <div>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </div>
-            <p>A quick thank you for perusing my portfolio. Enjoy!</p>
-        </footer>        
+        <div class="row">
+            <section class="container col-sm-11">
+                <!-- <div class="container"> -->
+                <div class="row">
+                    <img class="col-sm-6 js_img" src="assets/images/js.png" alt="java scri[t">
+                    <img class="col-sm-6 js_img" src="assets/images/node.png" alt="node js">
+                </div>
+                <div class="row">
+                    <img class="col-sm-6 js_img" src="assets/images/d3.jpg" alt="d3 js">
+                    <img class="col-sm-6 js_img" src="assets/images/express.png" alt="express js">
+                </div>
+                <!-- </div> -->
+            </section>
+        </div>
+        <div class="row">
+            <footer class="col-sm-12">
+                <h3>Connect With Me!</h3>
+                <div>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+                <p>A quick thank you for perusing my portfolio. Enjoy!</p>
+            </footer>
+        </div>        
 
     </body>
 

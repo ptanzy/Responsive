@@ -1,15 +1,15 @@
 #port {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 section {
-    width: 93%;
+    /* width: 93%;
     height: 90%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     border-radius: 25px;
     background:
     linear-gradient(
@@ -23,6 +23,11 @@ section {
     /* border: 1px solid #c4b7a6;
     background: #d5e1df; */
     margin: 2.5% 3% 3% 3%
+}
+
+.js_img {
+    border-radius: 25px;
+    padding: 2% 2% 2% 2%;
 }
 
 section > img {

@@ -7,10 +7,10 @@
         <link rel="stylesheet" type="text/css" href="assets/css/skills_style.css">        
         <title>Peter Tanzy: Skills</title>        
     </head>
-    <body id="skls">
+    <body id="skls" class="container">
 
         <nav class="navbar navbar-expand navbar-default bg-default nav_custom">
-            <a class="navbar-brand" href="#"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="150" height="35"></a>
+            <a class="navbar-brand" href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="150" height="35"></a>
     
             <div class="collapse navbar-collapse" id=navButtons>
                 <ul class="navbar-nav">
@@ -30,24 +30,33 @@
                 </ul>
             </div>
         </nav>
-        
-        <section>
-            <img src="assets/images/js.png" alt="java scri[t">
-            <img src="assets/images/node.png" alt="node js">
-            <img src="assets/images/d3.jpg" alt="d3 js">
-            <img src="assets/images/express.png" alt="express js">
-        </section>
 
-        <footer>
-            <h3>Connect With Me!</h3>
-            <div>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </div>
-            <p>A quick thank you for perusing my portfolio. Enjoy!</p>
-        </footer>   
+        <div class="row">
+            <section class="container col-sm-11">
+                <!-- <div class="container"> -->
+                <div class="row">
+                    <img class="col-sm-6 js_img" src="assets/images/js.png" alt="java scri[t">
+                    <img class="col-sm-6 js_img" src="assets/images/node.png" alt="node js">
+                </div>
+                <div class="row">
+                    <img class="col-sm-6 js_img" src="assets/images/d3.jpg" alt="d3 js">
+                    <img class="col-sm-6 js_img" src="assets/images/express.png" alt="express js">
+                </div>
+                <!-- </div> -->
+            </section>
+        </div>
 
+        <div class="row">
+            <footer class="col-sm-12">
+                <h3>Connect With Me!</h3>
+                <div>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+                <p>A quick thank you for perusing my portfolio. Enjoy!</p>
+            </footer>
+        </div>        
     </body>
 
     <script>
