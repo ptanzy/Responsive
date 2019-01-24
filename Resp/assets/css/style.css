@@ -136,6 +136,11 @@
         transform: scale(1.1);
     }
 
+    .fa-github {
+        color: #ffffff;
+        background: #4078c0;
+    }
+
     .fa-linkedin {
         color: #ffffff;
         background: #007bb5;

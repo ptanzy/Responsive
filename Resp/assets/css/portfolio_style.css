@@ -25,14 +25,26 @@
         background: #d5e1df; */
         margin: 2.5% 3% 3% 3%
     }
-    
-    section > img {
+        
+    section > div {
         border-radius: 25px;
         /* border: 1px solid #d6cbd3;
         background: #e6e2d3; */
-        margin: 4% 0 0 2%;
-        width: 35%;
-        height: 35%;
+        margin: 25px 0 0 10px;
+        width: 205px;
+        height: 205px;
+        /* width: 35%;
+        height: 35%; */
+    }
+
+    .proj-img {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .gitlink {
+        display: block;
     }
 }
 
@@ -64,13 +76,25 @@
         margin: 2.5% 3% 3% 3%
     }
     
-    section > img {
+    section > div {
         border-radius: 25px;
         /* border: 1px solid #d6cbd3;
         background: #e6e2d3; */
-        margin: 4% 0 0 2%;
-        width: 35%;
-        height: 35%;
+        margin: 25px 0 0 10px;
+        width: 205px;
+        height: 205px;
+        /* width: 35%;
+        height: 35%; */
+    }
+
+    .proj-img {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .gitlink {
+        display: block;
     }
 }
 /* 
@@ -109,11 +133,23 @@ section {
     margin: 2.5% 3% 3% 3%
 }
 
-section > img {
+section > div {
     border-radius: 25px;
     /* border: 1px solid #d6cbd3;
     background: #e6e2d3; */
-    margin: 4% 0 0 2%;
-    width: 35%;
-    height: 35%;
+    margin: 25px 0 0 10px;
+    width: 205px;
+    height: 205px;
+    /* width: 35%;
+    height: 35%; */
+}
+
+.proj-img {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.gitlink {
+    display: block;
 }

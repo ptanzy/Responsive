@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Peter Tanzy: Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
         <link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">        
@@ -10,8 +10,10 @@
     <body id="prt">
 
         <nav>
-            <a id=title href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();"></a>
-            <div id=navButtons>
+            <div id="title">
+                <a href="index.html"><img id="svgName" alt="Peter Tanzy link" src="assets/images/bl_name.svg" onmouseover="hover();" onmouseout="unhover();" width="300" height="50"></a>
+            </div>
+            <div id="navButtons">
                 <a id="about" href="about.html">About</a>
                 <a id="port" class="activeLink" href="#">Portfolio</a>
                 <a id="skill" href="skills.html">Skills</a>
@@ -20,17 +22,44 @@
         </nav>
         
         <section>
-                <img src="assets/images/js.png" alt="java scri[t">
-                <img src="assets/images/node.png" alt="node js">
-                <img src="assets/images/d3.jpg" alt="d3 js">
-                <img src="assets/images/express.png" alt="express js">
+                <div class="proj-img">
+                    <a href="https://ptanzy.github.io/unit-4-game/">
+                        <img src="assets/images/crystal.png" width="200" height="200" alt="crystal collector">
+                    </a>
+                    <a class="gitlink" href="https://github.com/ptanzy/unit-4-game/">GitHub</a>
+                </div>
+                <div class="proj-img">
+                    <a href="https://ptanzy.github.io/TriviaGame/">
+                        <img src="assets/images/trivia.png" width="200" height="200" alt="trivia game">
+                    </a>
+                    <a class="gitlink" href="https://github.com/ptanzy/TriviaGame/">GitHub</a>
+                </div>
+                <div class="proj-img">
+                    <a href="https://ptanzy.github.io/GifTastic/">
+                        <img src="assets/images/gify.png" width="200" height="200" alt="gify game">
+                        <a class="#itlink" href="https://github.com/ptanzy/GifTastic/">GitHub</a>
+                    </a>
+                </div>
+                <div class="proj-img">
+                    <a href="https://ptanzy.github.io/TrainSchedule/">
+                        <img src="assets/images/train.png" width="200" height="200" alt="train game">
+                    </a>
+                    <a id="gitlink" href="https://github.com/ptanzy/TrainSchedule/">GitHub</a>
+                </div>
+                <div class="proj-img">
+                    <a href="https://ptanzy.github.io/Wkndr/">
+                        <img src="assets/images/compass.png" width="200" height="200" alt="wkndr">
+                    </a>
+                    <a class="gitlink" href="https://github.com/ptanzy/Wkndr/">GitHub</a>
+                </div>
         </section>
 
         <footer>
             <h3>Connect With Me!</h3>
             <div>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/peter-tanzy-26571584" class="fa fa-linkedin"></a>
+                <a href="https://github.com/ptanzy/" class="fa fa-github"></a>
+                <a href="https://www.instagram.com/nkumeconstantine/?hl=en" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-youtube"></a>
             </div>
             <p>A quick thank you for perusing my portfolio. Enjoy!</p>
